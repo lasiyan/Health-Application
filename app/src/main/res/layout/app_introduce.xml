@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d2ddfd">
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/intro"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#e0f2e5"
+        android:orientation="vertical"
+        android:fillViewport="true">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+
+            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\n  앱 소개"
+                            android:id="@+id/intro_1"
+                            android:layout_alignParentTop="true"
+                            android:layout_alignParentLeft="true"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentRight="true"
+                            android:layout_alignParentEnd="true"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="left|center_vertical|center_horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="@string/app_intro"
+                            android:id="@+id/textView10"
+                            android:layout_below="@+id/intro_1"
+                            android:textSize="18dp"
+                android:gravity="left"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\n  사용 방법"
+                            android:id="@+id/textView11"
+                            android:textSize="25dp"
+                            android:textStyle="bold"
+                            android:gravity="left|center_vertical|center_horizontal"
+                            android:layout_below="@+id/textView10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="\n 1. 프로그램 탭에서 자신의 신체 정보를 입력한다"
+                            android:id="@+id/textView12"
+                            android:textSize="18dp"
+                            android:layout_below="@+id/textView11"
+                            android:layout_alignLeft="@+id/textView10"
+                            android:layout_alignStart="@+id/textView10"
+                            android:layout_alignRight="@+id/textView10"
+                            android:layout_alignEnd="@+id/textView10"
+                            android:gravity="left|center_vertical|center_horizontal"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" 2. BMI계산 후 자신에게 필요한 프로그램을 선택한다"
+                            android:id="@+id/textView13"
+                            android:textSize="18dp"
+                            android:gravity="left|center_vertical|center_horizontal"
+                            android:layout_below="@+id/textView12"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text=" 3. 메인화면에 나타난 버튼을 클릭하여 상단 화면을 참고하여 운동을 시작한다"
+                            android:id="@+id/textView14"
+                            android:textSize="18dp"
+                            android:gravity="left|center_vertical|center_horizontal"
+                            android:layout_below="@+id/textView13"
+                            android:layout_alignLeft="@+id/textView13"
+                            android:layout_alignStart="@+id/textView13"
+                            android:layout_alignRight="@+id/textView13"
+                            android:layout_alignEnd="@+id/textView13"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 4. 보다 자세한 설명이 필요할 경우 해당 운동 옆 '자세히' 버튼을 클릭한다"
+                android:id="@+id/textView15"
+                android:textSize="18dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_below="@+id/textView14"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n  개발자 정보"
+                android:id="@+id/textView16"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_below="@+id/textView15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n 개발자 이름\n 오원열"
+                android:id="@+id/textView17"
+                android:textSize="18dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 개발자 이메일"
+                android:id="@+id/textView18"
+                android:textSize="18dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="lasiyan@naver.com"
+                android:id="@+id/devel_email"
+                android:textSize="18dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text=" 개발자 번호"
+                android:id="@+id/textView19"
+                android:textSize="18dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="010-8662-8428"
+                android:id="@+id/devel_phone"
+                android:textSize="18dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:onClick="onTelClicked"
+                android:clickable="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:textColor="#003cff"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="\n  관련 사이트"
+                android:id="@+id/textView20"
+                android:textSize="25dp"
+                android:textStyle="bold"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_below="@+id/textView15"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/site_1"
+                android:id="@+id/site_1"
+                android:textSize="18dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:onClick="onSite1Clicked"
+                android:clickable="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:textColor="#002fff" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/site_2"
+                android:id="@+id/site_2"
+                android:textSize="18dp"
+                android:gravity="left|center_vertical|center_horizontal"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:onClick="onSite2Clicked"
+                android:clickable="true"
+                android:paddingLeft="15dp"
+                android:paddingRight="10dp"
+                android:textColor="#002fff" />
+        </LinearLayout>
+    </ScrollView>
+
+
+
+
+</RelativeLayout>
