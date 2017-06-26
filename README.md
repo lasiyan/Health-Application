@@ -30,4 +30,5 @@ Java, Android, SQLite, XML
 ## 실행 결과
 
 [![Demo Doccou alpha](https://j.gifs.com/2RK0G1.gif)](https://www.youtube.com/watch?v=CnDeI0WGLSQ)
+
 (클릭 시 유튜브로 이동합니다)
