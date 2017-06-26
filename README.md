@@ -2,7 +2,7 @@
 
 MyTrainerAgain is healthy application in android based smart phone. It implements in Android Studio 2.2.3 and testing in Nexus 7 Android Virtual Device
 
-마이트레이너 어게인은 안드로이드 기반으로 구현된 헬스 어플리케이션으로 이것은 안드로이드 스튜디오 2.2.3 버전에서 구현되었으며 넥서스7 AVD 환경에서 테스팅되었다. 이것은 프로그램 별 맞춤형 운동을 제공하는 것으로 사용자가 원하는 프로그램에 따른 각각의 다른
+마이트레이너 어게인은 안드로이드 기반으로 구현된 헬스 어플리케이션으로 이것은 안드로이드 스튜디오 2.2.3 버전에서 구현되었으며 넥서스7 AVD 환경에서 테스팅되었다. 이것은 프로그램 별 맞춤형 운동을 제공하는 것으로 사용자가 원하는 프로그램에 따른 각각의 다른 운동 데이터를 제공합니다.
 
 ## 개발 환경
 
